@@ -14,11 +14,11 @@ import javax.persistence.MappedSuperclass;
 @Access(AccessType.FIELD)
 public class ParentEntity implements Serializable {
 
-	private static final long serialVersionUID = 9022132952590357619L;
+	private static final long serialVersionUID = 3192962725288588853L;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(name="id", unique=true, nullable=false)
+	@Column(name = "id", unique = true, nullable = false)
 	private Long id;
 
 	public Long getId() {

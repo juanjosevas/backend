@@ -12,25 +12,25 @@ import javax.persistence.Table;
 
 public class User extends ParentEntity {
 	
-	private static final long serialVersionUID = 9022132952590357619L;
 	
-	
-	@Column(name = "first_name", nullable=false, length=255)
+	private static final long serialVersionUID = -1354337902163990825L;
+
+	@Column(name = "first_name", nullable=false, length = 255)
     private String firstName;
 	
-	@Column(name = "second_name", nullable=true, length=255)
+	@Column(name = "second_name", nullable=true, length = 255)
     private String secondName;
 	
-	@Column(name = " first_surname", nullable=false, length=255)
+	@Column(name = " first_surname", nullable=false, length = 255)
     private String firstSurname;
 	
-	@Column(name = "second_surname", nullable=true, length=255)
+	@Column(name = "second_surname", nullable=true, length = 255)
     private String secondSurname;
 	
-	@Column(name = "phone", nullable=true, length=255)
+	@Column(name = "phone", nullable=true, length = 30)
     private String phone;
 	
-	@Column(name = "address", nullable=false, length=255)
+	@Column(name = "address", nullable=false, length = 150)
     private String address;
 	
 	
